@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Pokémon</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+    <h1>Buscador de Pokémon</h1>
+    <form id="formularioPokemon">
+        <input type="text" id="nombrePokemon" placeholder="Nombre o ID del Pokémon" required>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <div id="cartaPokemon" class="carta" style="display: none;">
+        <img id="imagenPokemon" alt="Imagen del Pokémon">
+        <h2 id="tituloPokemon"></h2>
+        <p><strong>Movimientos:</strong></p>
+        <ul id="estadisticasPokemon"></ul> 
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
